@@ -6,4 +6,76 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  /* Common style */
+    .display-flex {
+        display: flex;
+    }
+    .common-color-grade {
+        color: #424242;
+    }
+    .common-color-header-footer {
+        background: #fff4e7;
+    }
+    .btn-primary {
+      background: #ff900e;
+      padding: 20px 25px;
+      border-radius: 8px;
+      font-size: 1.25rem;
+      color: #ffffff;
+      border: none;
+    }
+  /* Common style end */
+  /* header style start */
+    /* banner style */
+    .banner-content {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      padding-bottom: 35px;
+    }
+    .banner-title {
+      font-weight: 700;
+      font-size: 4rem;
+    }
+
+    .banner-image {
+      max-width: 100%;
+    }
+    /* Banner style end */
+  /* Header style end */
+
+  /* Nav style start  */
+  .navbar {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar .brand {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 5px 0;
+  }
+
+  .navlinks {
+    gap: 30px;
+  }
+  
+  .navlinks li {
+    list-style: none;
+  }
+
+  .navlinks li a {
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .navbar, .banner {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Nav style end */
+
+
+
+
   

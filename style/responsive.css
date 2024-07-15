@@ -1,0 +1,13 @@
+@media screen and (max-width: 610px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+
