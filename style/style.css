@@ -8,7 +8,8 @@
   }
 
   /* Common style */
-    .display-flex {
+
+    .display-flex, .team-feature {
         display: flex;
     }
     .common-color-grade {
@@ -24,6 +25,9 @@
       font-size: 1.25rem;
       color: #ffffff;
       border: none;
+    }
+    .common-description-color {
+      color: #727272;
     }
   /* Common style end */
   /* header style start */
@@ -74,7 +78,47 @@
   }
   
   /* Nav style end */
+/* Main section style */
+  main {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+ 
+  .feature-title, .group-pic-feature-2 h2 {
+    display: inline;
+  }
 
+  .team-feature {
+    width: 100%;
+    gap: 50px;
+    
+  }
+
+  .group-pic-feature-2 {
+    text-align: initial;
+  }
+  .span-1 {
+    color: #727272;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-stretch: expanded;
+    letter-spacing: 2px;
+  }
+
+  .span-2 {
+    color: #ff900e;
+  }
+
+ 
+
+  .group-pic-feature-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+/* Main section style end */
 
 
 
