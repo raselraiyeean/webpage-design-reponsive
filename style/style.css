@@ -9,7 +9,7 @@
 
   /* Common style */
 
-    .display-flex, .team-feature {
+    .display-flex, .team-feature, .featureBar-and-title {
         display: flex;
     }
     .common-color-grade {
@@ -26,8 +26,10 @@
       color: #ffffff;
       border: none;
     }
-    .common-description-color {
+    .common-description {
       color: #727272;
+      font-weight: regular;
+      font-size: 1rem;
     }
   /* Common style end */
   /* header style start */
@@ -92,11 +94,12 @@
   .team-feature {
     width: 100%;
     gap: 50px;
+    align-items: center;
     
   }
 
   .group-pic-feature-2 {
-    text-align: initial;
+    
   }
   .span-1 {
     color: #727272;
@@ -114,11 +117,79 @@
  
 
   .group-pic-feature-1 {
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 18px;
   }
 /* Main section style end */
+
+/* Style for second section */
+.bar {
+  border-left: 3px solid #ff900e;
+  height: 80px;
+}
+.feature-header-sidebar {
+  gap: 25px;
+}
+
+.feature-love {
+  display: flex;
+  gap: 100px;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.feature-love h5 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 5px 0;
+}
+
+.device-version-responsive {
+  padding: 25px;
+  border-radius: 5px;
+  margin-top: 25px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.feature-love-image-2 {
+  
+  width: calc(50%-50px);
+}
+
+.feature-love-image-1 {
+  width: calc(50%-50px);
+}
+
+.feature-love-image-2 img {
+  width: calc(50%-50px);
+}
+.experience-years {
+	background-color: #ff900e;
+	text-align: center;
+	width: 235px;
+	height: 112px;
+	border-radius: 5px;
+	position: relative;
+	top: -97px;
+  left: -70px;
+	padding: 12px;
+}
+.experience-years h1 {
+	font-weight: 700;
+	font-size: 3.06rem;
+	margin-bottom: 10px;
+	margin-top: 0;
+	color: #ffffff;
+}
+
+.experience-years p {
+  color: #fff1e1;
+}
+
+
+/* Style for second section end */
 
 
 
