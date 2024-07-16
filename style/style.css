@@ -128,6 +128,7 @@
 .bar {
   border-left: 3px solid #ff900e;
   height: 80px;
+  padding-right: 15px;
 }
 .feature-header-sidebar {
   gap: 25px;
@@ -229,6 +230,40 @@
   font-weight: 600;
 }
 /* Facts Style end */
+
+/* footer style start */
+
+.footer-section {
+  width: 90%;
+  margin: 130px auto;
+}
+
+.footer-first-section{
+  width: 100%;
+}
+.footer-header-description {
+  text-align: center;
+}
+.footer-header-description h2 {
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin: 5px;
+}
+.sponsors-logo-box {
+  margin-top: 40px;
+  margin-bottom: 90px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 70px;
+}
+
+.copyright {
+  background: #fff4e7;
+  padding: 40px 340px;
+  border-radius: 5px;
+}
+
+/* footer style end */
 
 
   

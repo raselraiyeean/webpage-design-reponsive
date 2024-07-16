@@ -32,6 +32,16 @@
         .feature-love {
             flex-direction: column;
         }
+        .feature-love-image-2 img {
+            width: 100%;
+        }
+
+        .sponsors-logo-box {
+            grid-template-columns: repeat(3, 2fr);
+        }
+        .copyright {
+            padding: 25px 200px;
+          }
     }
 
 @media screen and (min-width: 800px) and (max-width:1250px) {
@@ -99,6 +109,12 @@
     .group-pic-feature-1 img {
         width: 100%;
     }
+    .sponsors-logo-box {
+        grid-template-columns: repeat(2, 2fr);
+    }
+    .copyright {
+        padding: 20px 82px;
+      }
 
     
 }
@@ -155,7 +171,7 @@
 @media screen and (max-width: 476px) {
     .card-holder {
         grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
+        justify-items: center;
 
     }
     .card {
