@@ -28,6 +28,12 @@
         overflow: scroll;
     }
     }
+    @media screen and (max-width: 1256px) {
+        .feature-love {
+            flex-direction: column;
+        }
+    }
+
 @media screen and (min-width: 800px) and (max-width:1250px) {
     .navbar {
         flex-direction: column;
@@ -39,6 +45,9 @@
 
     .team-feature {
         flex-direction: column;
+    }
+    .card-holder {
+        grid-template-columns: repeat(2, 1fr);
     }
     
 }
@@ -63,6 +72,9 @@
     .feature-love {
         flex-direction: column;
       }
+      .card-holder {
+        grid-template-columns: repeat(2, 1fr);
+    }
     
 }
 
@@ -118,6 +130,36 @@
         font-size: 3.5rem;
     }
 
+    .experience-years {
+        width: 227px;
+        height: 96px;
+        top: -97px;
+        left: -34px;
+    }
+    .card-holder {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .some-facts-header-description {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .some-facts-header-description h2 {
+        margin: 10px;
+    }
+
     
+}
+
+@media screen and (max-width: 476px) {
+    .card-holder {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+
+    }
+    .card {
+        width: 70%;
+    }
 }
 

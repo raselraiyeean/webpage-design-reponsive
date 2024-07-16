@@ -190,7 +190,45 @@
 
 
 /* Style for second section end */
+/* Facts Style start */
+.some-facts {
+  width: 100%;
+}
+.some-facts-header-description {
+  width: 40%;
+  margin-bottom: 70px;
+}
+.some-facts-header-description h2 {
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+.card-holder {
+  display: grid;
+  gap: 85px;
+  grid-template-columns: repeat(4,1fr);
+}
 
+.card {
+
+  height: 167px;
+  width: 167px;
+  border: 1px solid #ffb35a;
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card h2, p {
+  margin: 5px;
+}
+
+.card h2 {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+/* Facts Style end */
 
 
   
