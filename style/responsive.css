@@ -179,6 +179,7 @@
     }
     .sponsors-logo-box {
         grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
     }
     .copyright {
         padding: 20px 82px;
