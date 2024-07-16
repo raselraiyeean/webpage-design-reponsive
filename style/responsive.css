@@ -109,13 +109,7 @@
     .group-pic-feature-1 img {
         width: 100%;
     }
-    .sponsors-logo-box {
-        grid-template-columns: repeat(2, 2fr);
-    }
-    .copyright {
-        padding: 20px 82px;
-      }
-
+    
     
 }
 
@@ -164,6 +158,12 @@
     .some-facts-header-description h2 {
         margin: 10px;
     }
+    .sponsors-logo-box {
+        grid-template-columns: repeat(2, 2fr);
+    }
+    .copyright {
+        padding: 20px 82px;
+      }
 
     
 }
@@ -177,5 +177,12 @@
     .card {
         width: 70%;
     }
+    .sponsors-logo-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .copyright {
+        padding: 20px 82px;
+      }
+
 }
 
